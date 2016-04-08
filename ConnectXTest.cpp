@@ -107,9 +107,11 @@ TEST(ConnectXText, placeTest)
 }
 /*
 Bugs: 	toWin = x; // we need to check toWin < height.
-   // simply check h/w separately
-   //if( w>=width || w<0 ) return false;
-  //if( h<0 || h>=height ) return false;
-  //return true;
+   
+For Inbound fucntion 
+simply check h/w separately
+if( w>=width || w<0 ) return false;
+if( h<0 || h>=height ) return false;
+return true;
 
 */
